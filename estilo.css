@@ -132,6 +132,7 @@ body {
 
     .login {
         background: linear-gradient(to bottom, #51E5FF,#1f5bff);
+        background-repeat: no-repeat;
     }
 
     .container-login {
