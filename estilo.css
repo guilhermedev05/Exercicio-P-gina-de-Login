@@ -56,9 +56,10 @@ body {
     border: 0px;
     border-radius: 5px;
     background-color: #EAF1F7;
-    padding: 6px 100px 6px 6px;
+    padding: 10px 100px 10px 6px;
     margin-top: 5px;
     margin-bottom: 15px;
+    outline-color: #1f5bff;
 }
 
 .login .remember-password {
@@ -122,4 +123,24 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+@media (max-width:600px) {
+    .fundo {
+        display: none;
+    }
+
+    .login {
+        background: linear-gradient(to bottom, #51E5FF,#1f5bff);
+    }
+
+    .container-login {
+        background-color: #fff;
+        padding: 50px 50px;
+        border-radius: 20px;
+    }
+
+    .login h1 {
+        margin: 20px 0;
+    }
 }
