@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    background: linear-gradient(to right, rgb(0, 119, 255),rgb(0, 81, 255));
+    font-family: 'Montserrat';
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+.fundo {
+    background: linear-gradient(180deg, #51E5FF, #1f5bff);
+    flex: 2;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.fundo img {
+    width: 100%;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 2;
+    background-color: #FFF;
+    width: 100%;
+}
+
+.login .container-login {
+    margin: 100px 0;
+}
+
+.login .title {
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.login .login-inputs {
+    width: 100%;
+    margin: auto;
+    font-size: 20px;
+}
+
+
+.login .login-inputs input {
+    border: 0px;
+    border-radius: 5px;
+    background-color: #EAF1F7;
+    padding: 6px 100px 6px 6px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.login .remember-password {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.login .remember-password input[type=checkbox]{
+    margin: 0 3px 0 0;
+}
+
+.login .remember-div {
+    display: flex;
+    align-items: center;
+}
+
+.login .remember-password a {
+    color: #00a5f1;
+    text-decoration: none;
+}
+
+.login .botao {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+
+.login .botao input {
+    width: 100%;
+    background-color: #00a5f1;
+    color: #fff;
+    border: 0px solid black;
+    padding: 8px 0;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.login .inscrever-se {
+    font-size: 12px;
+}
+
+.inscrever-se a {
+    color: #00a5f1;
+}
+
+.login .fotos-redes {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.login .logarcom {
+    color: #1f5bff;
+}
+
+.fotos-redes figure {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
